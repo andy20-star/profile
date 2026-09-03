@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         button.addEventListener('click', (event) => {
             event.preventDefault();
             const platform = button.textContent;
-            alert(`Anda memilih untuk membuka tautan ${platform}.`);
+            alert(`https://github.com/andy20-star`);
         });
     });
 
