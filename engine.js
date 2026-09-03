@@ -20,7 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
         button.addEventListener('click', (event) => {
             event.preventDefault();
             const platform = button.textContent;
-            alert(`https://github.com/andy20-star`);
+            alert(`anda akan di alihkan ke platfrom lain`);
+            window.open('https://github.com/andy20-star', '_blank');
         });
     });
 
